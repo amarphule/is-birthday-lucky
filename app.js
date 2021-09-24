@@ -12,7 +12,7 @@ checkbtn.addEventListener('click', () => {
         for (let num of dobNumber) {
             sum = sum + Number(num)
         }
-        (sum % luckyNumber.value == 0) ? message.innerHTML = `🥳Yayy!! ${luckyNumber.value} is lucky for you. you are lucky person 🥳🥳` : message.innerHTML = "Don't bilieve in lucky, Create Own!🤠"
+        (sum % luckyNumber.value == 0) ? message.innerHTML = `🥳Yayy!! ${luckyNumber.value} is lucky for you. you are a lucky person 🥳🥳` : message.innerHTML = "Don't believe in lucky, Create your Own!🤠"
     } else
         message.innerHTML = "Enter both input"
 })
